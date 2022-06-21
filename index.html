@@ -1,33 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Learn to Code.</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,700;1,600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <main>
-        <div><p>Learn to code by watching others</p>
-            <p>See how experienced developers solve problems in real-time.
-                Watching scripted tutorials is great, but understanding 
-                how developers think is invaluable.</p></div>
-        <div><button id="topbutton">Try it free 7 days then $20/mo. thereafter</button></div>
-        <div class="form">
-            <form acton="" method="POST">
-                <input type="text" id="fname" name="fname" class="input" placeholder="First name." minlength="3" maxlength="15" required>
-                <br><br>
-                <input type="text" id="lname" name="lname" class="input" placeholder="Last name." minlength="3" maxlength="15" required>
-                <br><br>
-                <input type="email" id="email" name="email" class="input" placeholder="Email Address." required>
-                <br><br>
-                <input type="password" id="psw" name="psw" class="input" placeholder="Password" pattern="(?=.*d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number, one uppercase and one lowercase letter, and at least 8 or more characters" required>
-                <br><br>
-                <input type="button" id="bottombutton" value="CLAIM YOUR FREE TRIAL" class="input"><br>
-                <p>By clicking the button you are agreeing to our <a href="" id="reg">terms and services.</a></p>
-            </form>
+        <div class="mainbox">
+            <div id="content1">
+            <p id="para1">Learn to code by watching others</p>
+            <p id="para2">See how experienced developers solve problems in real-time.
+                Watching scripted tutorials is great, but understanding
+                how developers think is invaluable.
+            </p>
+            </div>
+        </div>
+        <div class="mainbox">
+            <button id="topbutton">Try it free 7 days <a style="color: rgb(184, 181, 181)";>then $20/mo. thereafter</a></button>
+            <div id="form">
+                <form acton="#" method="POST">
+                    <input type="text" id="fname" name="fname" class="input" placeholder="First name." minlength="3"
+                        maxlength="15" required>
+                    <br><br>
+                    <input type="text" id="lname" name="lname" class="input" placeholder="Last name." minlength="3"
+                        maxlength="15" required>
+                    <br><br>
+                    <input type="email" id="email" name="email" class="input" placeholder="Email Address." required>
+                    <br><br>
+                    <input type="password" id="psw" name="psw" class="input" placeholder="Password"
+                        pattern="(?=.*d)(?=.*[a-z])(?=.*[A-Z]).{8,}"
+                        title="Must contain at least one number, one uppercase and one lowercase letter, and at least 8 or more characters"
+                        required>
+                    <br><br>
+                    <input type="submit" value="CLAIM YOUR FREE TRIAL"><br>
+                    <p id="par3">By clicking the button you are agreeing to our <a href="" id="terms">Terms and
+                            Services.</a></p>
+                </form>
+            </div>
         </div>
     </main>
 </body>
+
 </html>
