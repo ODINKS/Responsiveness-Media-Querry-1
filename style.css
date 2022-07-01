@@ -113,7 +113,7 @@
 }
 
 /* Media querry for max-width:375px */
-@media screen, print and (max-width:375px) {
+@media screen and (max-width:375px) {
     * {
         margin: 0px;
     }
