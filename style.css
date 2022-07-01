@@ -9,7 +9,7 @@
         background-color: hsl(0, 100%, 74%);
         font-family: 'Poppins', sans-serif;
         font-size: 16px;
-        background-image: url(../images/bg-intro-desktop.png);
+        background-image: url(./images/bg-intro-desktop.png);
         background-repeat: no-repeat;
         background-attachment: fixed;
         background-size: 100% 100%;
@@ -113,13 +113,13 @@
 }
 
 /* Media querry for max-width:375px */
-@media screen and (max-width:375px) {
+@media screen, print and (max-width:375px) {
     * {
         margin: 0px;
     }
 
     body {
-        background-image: url(../images/bg-intro-mobile.png);
+        background-image: url(./images/bg-intro-mobile.png);
         background-repeat: no-repeat;
         background-attachment: fixed;
         background-size: 100% 100%;
